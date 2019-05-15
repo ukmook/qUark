@@ -22,6 +22,8 @@ The BOM file has all the part numbers listed either from RS Components or mouser
 
 The design has been optimised for Ardupilot, The uarts, i2c and spi buses were chosen to keep the DMA Table as clear as possible.
 
+ Link to HWDEF in my fork of Ardupilot <https://github.com/ukmook/ardupilot/tree/master/libraries/AP_HAL_ChibiOS/hwdef/qUarkf4_Nano9>
+
 Other flight stacks can be used.
 
   # Features
