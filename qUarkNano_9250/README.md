@@ -3,7 +3,7 @@
   ### qUarkNano UC4H flight controller
 
 
-Design files for qUarkNano Flight controller.
+Design files for qUarkNano 9250 Flight controller.
 
 4 PWM, 3 Uarts, 1 RCIN This design has been tested extensively with S800, S84 and mini quads
 
