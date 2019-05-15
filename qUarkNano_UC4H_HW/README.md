@@ -26,3 +26,9 @@ PCB Boards OSH Park https://oshpark.com/shared_projects/3hq3EozV
 | CPU | STM32F405RGT6 |
 | CANBUS | MAX3051 solder link for 120ohm Termination |
 | CANBUS | JST GH Socket |
+
+
+ # Upper
+![QNU](qUarkNano_UC4H_top.png)
+ # Lower
+![QNU](qUarkNano_UC4H_Lower.png)
