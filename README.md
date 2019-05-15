@@ -5,7 +5,9 @@
 
  ## Flight Controllers
 
-Optimised for Ardupilot and Betacopter using the Nano UC4H
+Optimised for Ardupilot.
+
+Nano UC4H for Betacopter/Ardupilot see readme
 
  ## GPS
 
