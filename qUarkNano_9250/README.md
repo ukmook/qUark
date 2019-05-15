@@ -1,6 +1,6 @@
 
 
-  ## qUarkNano UC4H flight controller
+  ## qUarkNano flight controller
 
 
  #### Design files for qUarkNano 9250 Flight controller.
