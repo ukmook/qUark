@@ -4,11 +4,11 @@
 
  ### This design is untested as yet.
 
- #### Design files for qUarkMini_BMI Flight controller.
+ #### Design files for qUarkMini_BMI (wing type board) Flight controller.
 
 This is not an easy build and uses very small components.
 
-I use a small oven which i bought from a local store, a microscope from ebay and solder paste from an online UK store.
+I use a small oven which i bought from a local store, a microscope from ebay and solder paste from an online UK store. I suggest ordering a stencil which will make the build a lot easier and produces a clean PCB.
 But if you are thinking of building this then i suspect that you already have the right tools.
 
 The BOM file has all the part numbers listed either from Manufacturer, RS Components and mouser (the 2 component suppliers i use), You do not have to buy from there but adding the part numbers to the RS website search will bring up the item page which has all the info. The components can be bought from where ever you like.
@@ -23,6 +23,8 @@ I have included the design files for Kicad and also images, 3d for freecad, part
 
 
 The design has been optimised for Ardupilot, The uarts, i2c and spi buses were chosen to keep the DMA Table as clear as possible.
+
+Link to HWDEF in my fork of Ardupilot <https://github.com/ukmook/ardupilot/tree/master/libraries/AP_HAL_ChibiOS/hwdef/qUarkMini_BMI>
 
 Other flight stacks can be used.
 
