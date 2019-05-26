@@ -20,3 +20,5 @@ Nano UC4H for Betacopter/Ardupilot see readme
  20amp 40amp 60amp
 
  To be updated
+
+ # THIS COMES WITH NO WARRANTY! BUILD, FLY, AND USE AT YOUR OWN RISK!
