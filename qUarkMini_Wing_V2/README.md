@@ -4,7 +4,7 @@
 
  ### This design is untested as yet.
 
- #### Design files for qUarkMini_BMI (wing type board) Flight controller.
+ #### Design files for qUarkMini_Wing_V2 Flight controller.
 
 This is not an easy build and uses very small components.
 
