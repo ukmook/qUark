@@ -1,6 +1,6 @@
 
 
- ## qUarkMini_BMI flight controller
+ ## qUarkMini_Wing_V2 flight controller
 
  ### This design is untested as yet.
 
@@ -24,7 +24,7 @@ I have included the design files for Kicad and also images, 3d for freecad, part
 
 The design has been optimised for Ardupilot, The uarts, i2c and spi buses were chosen to keep the DMA Table as clear as possible.
 
-Link to HWDEF in my fork of Ardupilot <https://github.com/ukmook/ardupilot/tree/master/libraries/AP_HAL_ChibiOS/hwdef/qUarkMini_BMI>
+Link to HWDEF in my fork of Ardupilot <https://github.com/ukmook/ardupilot/tree/master/libraries/AP_HAL_ChibiOS/hwdef/qUarkMini_Wing_V2>
 
 Other flight stacks can be used.
 
