@@ -7,7 +7,12 @@
 
 Optimised for Ardupilot.
 
-Nano UC4H for Betacopter/Ardupilot see readme
+qUarkNano UC4H for Betacopter/Ardupilot see readme
+
+qUarkNano 9250 small STM32F4 Based flight controller
+
+qUarkMini_Wing_V1 small wing/plane type flight controller with built in 6amp reg
+
 
  ## GPS
 
