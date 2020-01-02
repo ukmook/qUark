@@ -8,7 +8,7 @@
 
 This is not an easy build and uses very small components.
 
-I use a small oven which i bought from a local store, a microscope from ebay and solder paste from an online UK store. I suggest ordering a stencil which will make the build a lot easier and produces a clean PCB.
+I use a small oven which i bought from a local store, a microscope from ebay and solder paste from an online UK store. Also OSH Stencils are the best i have tried others and they dont come close. 4mil stainless steel.
 But if you are thinking of building this then i suspect that you already have the right tools.
 
 The BOM file has all the part numbers listed either from Manufacturer, RS Components and mouser (the 2 component suppliers i use), You do not have to buy from there but adding the part numbers to the RS website search will bring up the item page which has all the info. The components can be bought from where ever you like.
@@ -46,7 +46,7 @@ Other flight stacks can be used.
 | PWM | 4 PWM + 1 AUX|
 | I2C | 1 I2C bus |
 | USB | Vertical USB with diode protection |
-| PCB Size | TBA |
+| PCB Size | 35 x 39mm |
 | Buzzer/Alarm | Alarm for Ardupilot musical tones on a timer using micro nfet |
 
  # PCB
@@ -54,4 +54,4 @@ Other flight stacks can be used.
  # Upper
 ![QNU](/qUarkMini_Wing_V2/Images/qUarkMini_Wing_V2_top.png)
  # Lower
-![QNU](/qUarkMini_Wing_V2/Images/qUarkMini_Wing_V2_bottom.png) 
+![QNU](/qUarkMini_Wing_V2/Images/qUarkMini_Wing_V2_bottom.png)
