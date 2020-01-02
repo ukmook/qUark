@@ -2,31 +2,35 @@
 
  ## qUarkNano flight controller
 
- ### This design is untested as yet.
+ ### I am in the process of testing this design
 
  #### Design files for qUarkNano UC4H Flight controller.
 
- ##### No PWM outputs, canbus only. Please see Olliw http://www.olliw.eu/2017/uavcan-for-hobbyists/
+ ##### PWM can now be selected using ALT Config. But not with the Firmwares in this repo.
 
- ##### This flight controller is to be used with either Betacopter or Ardupilot using nodes from Oliiw designs.
+  ##### This flight controller is to be used with either Betacopter or Ardupilot using nodes from Oliiw designs or from ardupilot. https://discuss.ardupilot.org/t/ap-periph-1-0-0-stable-released/49049/14 or Olliw http://www.olliw.eu/2017/uavcan-for-hobbyists/
 
 This is not an easy build and uses very small components.
 
-I use a small oven which i bought from a local store, a microscope from ebay and solder paste from an online UK store.
+I use a small oven which i bought from a local store, a microscope from ebay and solder paste from an online UK store. Also OSH Stencils are the best i have tried others and they dont come close. 4mil stainless steel.
 But if you are thinking of building this then i suspect that you already have the right tools.
 
 The BOM file has all the part numbers listed either from RS Components or mouser (the 2 component suppliers i use), You do not have to buy from there but adding the part numbers to the RS website search will bring up the item page which has all the info. The components can be bought from where ever you like.
 
  ### Kicad
 
-I have included the design files for Kicad and also images, 3d for freecad, part footprint .pretty & PDF schematic.
+Included are the design files for Kicad and also images, 3d for freecad, part footprint .pretty & PDF schematic.
 
  ### Specs
 
-4 PWM, 3 Uarts, 1 RCIN, 2 CANBUS
+0 PWM, 3 Uarts, 1 RCIN, 2 CANBUS, BUZZER
+
+ ### Firmware
+
+ Firmware & bootloader which will work with the board and Arducopter
 
 
-The design has been optimised for Ardupilot, The uarts, i2c and spi buses were chosen to keep the DMA Table as clear as possible.
+The uarts, i2c and spi buses were chosen to keep the DMA Table as clear as possible.
 
 Other flight stacks can be used.
 
