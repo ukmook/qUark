@@ -2,9 +2,11 @@
 
  ## qUarkMini_Wing_V2 flight controller
 
- ### This design is untested as yet.
+ ![QNU](/qUarkMini_Wing_V2/Images/qUarkMini_Wing_V2.1.jpg)
 
- #### Design files for qUarkMini_Wing_V2 Flight controller.
+ ### The design has been tested and needs some updates which i am working on at the moment, this includes adding CANBUS and also changing the SMPS and linear regulator.
+
+ #### Details for qUarkMini_Wing_V2 Flight controller.
 
 This is not an easy build and uses very small components.
 
