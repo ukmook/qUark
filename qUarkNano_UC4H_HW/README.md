@@ -1,6 +1,8 @@
 
 
- ## qUarkNano flight controller
+ ## qUarkNano CANBUS flight controller
+
+ ![QNU](/qUarkNano_UC4H_HW/Images/qUarkNanoUC4H.jpg)
 
  ### I am in the process of testing this design
 
