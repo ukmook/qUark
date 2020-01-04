@@ -4,7 +4,7 @@
 
  ![QNU](/Blue-Pill_STM32F103/Images/Blue-Pill-Conn.jpg)
 
- These are the connections for Blue-Pill
+ Connections for Blue-Pill
 
  #### Details for Connecting and loading Ardupilot AP_Periph Firmware on the board
 
