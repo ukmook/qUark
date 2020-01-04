@@ -11,8 +11,9 @@ qUarkNano UC4H for Betacopter/Ardupilot see readme
 
 qUarkNano 9250 small STM32F4 Based flight controller
 
-qUarkMini_Wing_V1 small wing/plane type flight controller with built in 6amp reg
+qUarkMini_Wing_V2 small wing/plane type flight controller with built in 6amp reg
 
+To be updated
 
  ## GPS
 
@@ -23,7 +24,5 @@ qUarkMini_Wing_V1 small wing/plane type flight controller with built in 6amp reg
  5.5v power regulators with INA169 current sensing
 
  20amp 40amp 60amp
-
- To be updated
 
  ## THIS COMES WITH NO WARRANTY! BUILD, FLY, AND USE AT YOUR OWN RISK!
