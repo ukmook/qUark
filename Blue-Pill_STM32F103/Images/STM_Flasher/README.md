@@ -14,11 +14,11 @@ Press next and the screen should look like this.
 
 ![QNU](/Blue-Pill_STM32F103/Images/STM_Flasher/Flash_Loader_1.png)
 
-press next again.
+press next again. Press the erase radio button and click on next.
 
 ![QNU](/Blue-Pill_STM32F103/Images/STM_Flasher/Flash_Loader_2.png)
 
-Press the erase radio button and click on next. Once completed press back and set the Download to device radio button and also verify after download. Press next again.
+ Once completed press back and set the Download to device radio button and also verify after download. Press next again.
 
 ![QNU](/Blue-Pill_STM32F103/Images/STM_Flasher/Flash_Loader_3.png)
 
