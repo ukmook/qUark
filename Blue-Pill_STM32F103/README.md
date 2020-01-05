@@ -40,6 +40,10 @@ Download [UAVCAN_gui_tool](https://uavcan.org/GUI_Tool/Overview/) and install it
 
  Once write parameters has been pressed it will fail to set, this means it has gone into SLCAN mode which is correct, if MP reports it as set then try again. This can be a bit flaky, QGroundControl seems to work better at setting the parameter.
 
+ ## Do not power down just close Mission Planner.
+
+ If the board is powered down then start the Mission Planner instructions again.
+
  ## UAVCAN_GUI
 
  Start UAVCAN_gui_tool, set the baud rate.
