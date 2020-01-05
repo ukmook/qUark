@@ -14,7 +14,7 @@
 
 First you need to flash the bootloader to the blue-pill. The right hand jumper needs to be moved to cover the lower pins, this will put the board in bootloader mode. Then make the connections to the blue-pill copying the Uart connections of the GPS in the image above (remove GPS and Connect FTDI), to your FTDI device. Once connected upload the [Bootloader](/Blue-Pill_STM32F103/Binaries/f103-GPS-Blue_bl.bin), using [Flasher-STM32](https://www.st.com/en/development-tools/flasher-stm32.html) or this one because it does everything DFU, Uart, SPI etc [STM32CubeProg](https://www.st.com/en/development-tools/stm32cubeprog.html), the latter does not report the size of flash on the Blue-Pill the "Flasher-STM32" will.
 
- ###### Help file available here for [STM-Flasher](/Blue-Pill_STM32F103/Images/STM_Flasher/README.md)
+ ###### Help file available here for [STM-Flasher](/Blue-Pill_STM32F103/STM_Flasher/README.md)
 
 After the bootloader is flashed the Blue-Pill can be connected to the autopilot CANBUS, GPS & Mag following the above image (the GPS is auto configuring).  If I2C is not used then connect the B6 to 3.3v pin on Blue-Pill otherwise the reset button will have to be pressed every time the board is booted.
 
