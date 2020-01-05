@@ -2,7 +2,7 @@
 
  ## Blue-Pill STM32F103C WIP
 
- ![QNU](/Blue-Pill_STM32F103/Images/Blue-Pill-Conn.jpg)
+ ![QNU](/Blue-Pill_STM32F103/Images/Blue-Pill_Conn_GPS.jpg)
 
  Connections for Blue-Pill
 
