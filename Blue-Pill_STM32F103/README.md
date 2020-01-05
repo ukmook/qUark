@@ -12,7 +12,10 @@
 
  ###### If your FTDI device has an earlier 2102 SILABS chip on it then it will need to be reprogrammed to support 1000000Bps as this baud rate is needed to connect the Blue-Pill to UAVCAN_gui_tool. Follow this link written by [OlliW](https://www.rcgroups.com/forums/showpost.php?p=38571959&postcount=224).
 
-First you need to flash the bootloader to the blue-pill. The right hand jumper needs to be moved to cover the lower pins, this will put the board in bootloader mode. Then make the connections to the blue-pill copying the Uart connections of the GPS in the image above (remove GPS and Connect FTDI), to your FTDI device. Once connected upload the [Bootloader](/Blue-Pill_STM32F103/Binaries/f103-GPS-Blue_bl.bin), using [Flasher-STM32](https://www.st.com/en/development-tools/flasher-stm32.html) or this one because it does everything DFU, Uart, SPI etc [STM32CubeProg](https://www.st.com/en/development-tools/stm32cubeprog.html), the latter does not report the size of flash on the Blue-Pill the "Flasher-STM32" will.
+ ## Flashing Blue-Pill
+
+First you need to flash the bootloader to the blue-pill. The right hand jumper needs to be moved to cover the lower pins, this will put the board in bootloader mode. Then make the connections to the blue-pill copying the Uart connections of the GPS in the image above (remove GPS and Connect FTDI), to your FTDI device. Once connected upload the [Bootloader](/Blue-Pill_STM32F103/Binaries/f103-GPS-Blue_bl.bin), using [Flasher-STM32](https://www.st.com/en/development-tools/flasher-stm32.html) or [STM32CubeProg](https://www.st.com/en/development-tools/stm32cubeprog.html), the latter does not report the size of flash on the Blue-Pill the "Flasher-STM32" does.
+Full instructions on using the STM-Flasher are available from the link below.
 
  ###### Help file available here for [STM-Flasher](/Blue-Pill_STM32F103/STM_Flasher/README.md)
 
@@ -31,7 +34,7 @@ Download [UAVCAN_gui_tool](https://uavcan.org/GUI_Tool/Overview/) and install it
 
  ![QNU](/Blue-Pill_STM32F103/Images/MP_CAN_2.png)
 
- To put the autopilot into SLCAN mode (CANBUS Pass through) set the the "CAN_SLCAN_SERNUM" to zero.
+ To put the autopilot into SLCAN mode (Serial_Link_CAN) set the "CAN_SLCAN_SERNUM" to zero.
 
  ![QNU](/Blue-Pill_STM32F103/Images/MP_CAN_3.png)
 

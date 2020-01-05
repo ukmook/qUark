@@ -4,7 +4,7 @@
 
  Link to [Flasher-STM32](https://www.st.com/en/development-tools/flasher-stm32.html)
 
- Instructions for flashing Blue-Pill with Ardupilot AP_Periph_GPS firmware.
+ Instructions for flashing Blue-Pill with Ardupilot AP_Periph_GPS booloader firmware.
  Some Blue-Pill boards come with 128kb  and some with 64kb to my knowledge there is no way of knowing for sure. I bought two, one had 64 and the other 128kb.
  STM_Flasher will report the size of memory.
 
@@ -28,6 +28,6 @@ Press the erase radio button and click on next. Once erase is completed press ba
 
 ![QNU](/Blue-Pill_STM32F103/STM_Flasher/Flash_Loader_3.png)
 
-The screen should look like this when flashing is complete. Press back and disconnect. 
+The screen should look like this when flashing is complete. Press back and disconnect.
 
 ![QNU](/Blue-Pill_STM32F103/STM_Flasher/Flash_Loader_4.png)
