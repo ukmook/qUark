@@ -98,7 +98,7 @@ Download [UAVCAN_gui_tool](https://uavcan.org/GUI_Tool/Overview/) and install it
 
   ## Mission Planner
 
-  Open up mission planner and Navigate to Config/Full Parameter Tree. Type in the right hand box "GPS_Type" set to 9 and write parameters.
+  Connect autopilot and Start mission planner, Navigate to Config/Full Parameter Tree. Type in the right hand box "GPS_Type" set to 9 and write parameters.
 
   ![QNU](/Blue-Pill_STM32F103/Images/MP_GPS.png)
 
@@ -106,7 +106,7 @@ Download [UAVCAN_gui_tool](https://uavcan.org/GUI_Tool/Overview/) and install it
 
   ![QNU](/Blue-Pill_STM32F103/Images/MP_MAG.png)
 
-  Reconnect if all has gone sucssefully then the status window in mission planner should be as follows.
+  Power the whole system and connect if all has gone successfully then the status window in mission planner should be as follows. Reporting MAG and GPS.
 
   ![QNU](/Blue-Pill_STM32F103/Images/MP_Status.png)
 
