@@ -41,4 +41,24 @@ Download [UAVCAN_gui_tool](https://uavcan.org/GUI_Tool/Overview/) and install it
 
  and press OK.
 
- UAVCAN_gui_tool will start with an interface that looks like : 
+ UAVCAN_gui_tool will start with an interface that looks like the image below.  Press on the Tick. Leave the node address unless you have another on the Bus with the same number. The Blue-Pill is in maintenance mode, Firmware needs to be uploaded.
+
+ ![QNU](/Blue-Pill_STM32F103/Images/CAN_GUI_2.png)
+
+ Now press on the button highlighted bottom right. Then double click on the org.ardupilot.ap_periph, again highlighted red. Another window will appear.
+
+ ![QNU](/Blue-Pill_STM32F103/Images/CAN_GUI_3.png)
+
+ Click on update Firmware button and upload this [Firmware](/Blue-Pill_STM32F103/Binaries/f103-GPS-Blue.bin)
+
+ ![QNU](/Blue-Pill_STM32F103/Images/CAN_GUI_4.png)
+
+ You will get the following Screens
+
+ ![QNU](/Blue-Pill_STM32F103/Images/CAN_GUI_5.png)
+
+ ![QNU](/Blue-Pill_STM32F103/Images/CAN_GUI_6.png)
+
+ Wait until Main window has changed to
+
+ ![QNU](/Blue-Pill_STM32F103/Images/CAN_GUI_7.png)
