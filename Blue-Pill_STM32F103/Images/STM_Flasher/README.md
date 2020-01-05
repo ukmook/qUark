@@ -22,6 +22,6 @@ press next again. Press the erase radio button and click on next.
 
 ![QNU](/Blue-Pill_STM32F103/Images/STM_Flasher/Flash_Loader_3.png)
 
-The screen should look like this when finished flashing.
+The screen should look like this when flashing is complete.
 
 ![QNU](/Blue-Pill_STM32F103/Images/STM_Flasher/Flash_Loader_4.png)
