@@ -1,7 +1,7 @@
  # qUark Flight Electronics
 
 
- ### Instructions for https://github.com/ukmook/djihdfpv_mavlink_to_msp_V2 Hardware
+ ### Instructions for https://github.com/d3ngit/djihdfpv_mavlink_to_msp_V2 Hardware
 
  ## Arduino
 
