@@ -23,7 +23,7 @@ Take each folder from the Arduino_libraries from the extracted zipped folder and
 
 ![QNU](/Mav-To-MSP/Images/Folder-Tree1.png)
 
-In windows it is usally under /Documents/Arduino/Libraries a link is provided below to help with finding and placing the Libraries,
+In windows it is usually under /Documents/Arduino/Libraries a link is provided below to help with finding and placing the Libraries,
 
 [Instructions](https://learn.sparkfun.com/tutorials/installing-an-arduino-library/all) for finding and manually adding the libraries.
 
