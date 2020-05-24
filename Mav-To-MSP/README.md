@@ -100,7 +100,7 @@ To program the board simply click on the arrow next to the tick if all goes well
 
 ![QNU](/Mav-To-MSP/Images/MP_Sitl.png)
 
-Now mission planner is sending flight data to the Arduino board navigate to Mission Planner Data window and press on action tab lower left, press arm/disarm (Blue) select Takeoff from the drop down (Red) and setmode (Green) this will start the simulation and you can view the OSD in the goggles.
+Now mission planner is sending flight data to the Arduino board. Navigate to Mission Planner Data window and press on action tab lower left, press arm/disarm (Blue) select Takeoff from the drop down (Red) and setmode (Green) this will start the simulation and you can view the OSD in the goggles.
 
 ![QNU](/Mav-To-MSP/Images/MP1.png)
 
