@@ -42,7 +42,7 @@ The Arduino IDE will give a warning, answer Ok.
 
  ![QNU](/Mav-To-MSP/Images/IDE1.png)
 
- From the Tools menu select your board, you will probably need to select old bootloader if your board is a clone. Also select the port from the same window that is attached to you Arduino board.
+ From the Tools menu select your board, you will probably need to select old bootloader if your board is a clone. Also select the port from the same window that is attached to your Arduino board.
 
   ![QNU](/Mav-To-MSP/Images/IDE2.png)
 
@@ -76,6 +76,8 @@ To program the board simply click on the arrow next to the tick if all goes well
 
  ## Wiring
 
+ The flight controller Uart/Serial connected to the Arduino Board has be setup to output Mavlink-1 @ 57600 baud.
+
  Follow the image below to wire your air-unit to Arduino Nano.
 
  ![QNU](/Mav-To-MSP/Images/Wiring.png)
@@ -98,7 +100,7 @@ To program the board simply click on the arrow next to the tick if all goes well
 
 ![QNU](/Mav-To-MSP/Images/MP_Sitl.png)
 
-Now mission planner is sending flight data to the Arduino board navigate back to the Mission Planner Simulation window and press on action tab lower left, press arm/disarm (Blue) select Takeoff from the drop down (Red) and setmode (Green) this will start the simulation and you can view the OSD in the goggles.
+Now mission planner is sending flight data to the Arduino board navigate to Mission Planner Data window and press on action tab lower left, press arm/disarm (Blue) select Takeoff from the drop down (Red) and setmode (Green) this will start the simulation and you can view the OSD in the goggles.
 
 ![QNU](/Mav-To-MSP/Images/MP1.png)
 
