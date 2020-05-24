@@ -15,30 +15,29 @@ Once installed follow this Link to the Github [Project](https://github.com/d3ngi
 
 ![QNU](/Mav-To-MSP/Images/Zipped.png)
 
-Navigate to the unzipped folder
+Navigate to the extracted Zip folder that has been made by the step above. It should look like the image below.
 
-Take each folder from the Arduino_libraries from the extracted zipped folder and place into the Arduino library folder.
+Open the Arduino_libraries folder marked Blue, there will be three folders marked in Red place these into the Arduino IDE libraries folder.
 
-![QNU](/Mav-To-MSP/Images/Folder-Tree.png)
+![QNU](/Mav-To-MSP/Images/Folder-Tree1a.png)
 
-![QNU](/Mav-To-MSP/Images/Folder-Tree1.png)
+![QNU](/Mav-To-MSP/Images/Folder-Tree1b.png)
 
-In windows it is usually under /Documents/Arduino/Libraries a link is provided below to help with finding and placing the Libraries,
+In windows it is usually under
+![QNU](/Mav-To-MSP/Images/Folder-Tree1c.png)
+Follow the link to help with finding and placing Arduino IDE [Libraries](https://learn.sparkfun.com/tutorials/installing-an-arduino-library/all) manually.
 
-[Instructions](https://learn.sparkfun.com/tutorials/installing-an-arduino-library/all) for finding and manually adding the libraries.
+Once Libraries are in the correct places open the "djihdfpv_mavlink_to_msp_V2.ino" file with Arduino IDE.
 
-Open the "djihdfpv_mavlink_to_msp_V2.ino" with Arduino IDE.
-
-The Arduino IDE will give a warning, answer Ok.
+Arduino IDE will give a warning, answer Ok.
 
  ![QNU](/Mav-To-MSP/Images/Moving.png)
 
- A new folder will be created (djihdfpv_mavlink_to_msp_V2) but extra files need to be placed into it before any programming can be done. So close the Arduio IDE. Navigate to the folder tree and place three files marked in Red into the newly created folder marked Green.
+ A new folder will be created inside the original extracted folder tree (djihdfpv_mavlink_to_msp_V2) but extra files need to be placed into it before any programming can be done. So close the Arduino IDE. Navigate to the folder tree and place three files marked in Red into the newly created folder marked Green.
 
  ![QNU](/Mav-To-MSP/Images/Folder-Tree2a.png)
 
- Now open Arduino IDE and navigate to the "djihdfpv_mavlink_to_msp_V2.ino" and open.
- Your Arduino IDE should look like this with the Four tabs as shown.
+ Now open Arduino IDE and navigate to the "djihdfpv_mavlink_to_msp_V2.ino" inside the folder above shown in green. Your Arduino IDE should look like this with the Four tabs.
 
  ![QNU](/Mav-To-MSP/Images/IDE1.png)
 
@@ -46,11 +45,15 @@ The Arduino IDE will give a warning, answer Ok.
 
   ![QNU](/Mav-To-MSP/Images/IDE2.png)
 
-  A few options need to be set before programming, Firstly we have to define the board and data type options. The way this is done is by adding "//" before an option to disable it. To select from multiple options just type in the correct number by looking at the options.
+  Now it is time to setup the user required options, There are two types some need enabling/disabling and some need a number as there is more than one option for that setting.  
 
-  I.E. If using an Arduino Nano, serial type option has to be set to "0" as it only has one hardware serial port.
+  enabling/disabling is achieved by adding "//" before a setting.  
+  `//#define SPEED_IN_MILES_PER_HOUR` will turn off SPEED_IN_MILES_PER_HOUR  
 
-   - Leave "#define MAH_CALIBRATION_FACTOR" as it is.
+  To select from multiple settings just type in the correct number by looking at the options.  
+  `#define VEHICLE_TYPE                                                0       //0==ArduPlane, 1==ArduCopter, 2==INAVPlane, 3==INAVCopter. Used for flight modes`  Option "0" changes the vehicle type to Arduplane. "1" for arducopter etc.
+
+  Leave `#define MAH_CALIBRATION_FACTOR` as it is.
 
 The rest is upto the user to decide.
 
