@@ -7,6 +7,8 @@
 
  #### I would prefer to use an Arduino Pro Mini 8Mhz 3.3v as that would be at the correct levels but the Author of the Github Repo (djihdfpv_mavlink_to_msp_V2) has written his docs for the Nano. The issue is that the air unit is expecting levels of 0-3.3v and Arduino Nano runs levels of 0-5v. There have been no damage reports but be warned.
 
+ ### Turn on custom OSD in FPV-Goggle menu. 
+
  ## Arduino
 
 First off download the [Arduino IDE](https://www.arduino.cc/en/Main/Software) and Install.
